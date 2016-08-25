@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+	<body>
+		<div id="container" class="container" data-layout="stark">
+			<div class="z-header zone">
+				<div class="w-header">
+					{{ partial "header--not-animated.html" . }}
+				</div>
+			</div>
+			<div class="z-content zone">
+				<div class="l-main main" region="main-content">
+          <main class="content" role="main">
+            <div class="container">
+              {{ .Render "post" }}
+            </div>
+          </main>
+				</div>
+			</div>
+			<div class="z-footer zone">
+				<div class="w-footer">
+					<div class="l-footer footer" region="footer">
+						{{ partial "footer.html"	. }}
+					</div>
+				</div>
+			</div>
+			<div class="z-footer-sub zone">
+				<div class="w-footer-sub">
+					<div class="l-footer-sub footer-sub" region="footer-sub">
+						{{ partial "copyright.html" . }}
+					</div>
+				</div>
+			</div>
+
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<script src="{{ .Site.BaseURL }}js/functions.js"></script>
+		</div>
+	</body>
+</html>

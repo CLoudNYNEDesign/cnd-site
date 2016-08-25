@@ -1,0 +1,28 @@
+<div class="employee">
+	<figure class="employee__avatar">
+		<img src="/images/avatars/{{ .avatar }}" alt="{{ .name }}">
+		<figcaption>
+			<h2 class="employee__name"><a href="mailto:{{ .email }}" alt="Click to send email to {{ .name }}">{{ .name }}</a></h2>
+			<h4 class="employee__title">{{ .title }}</h4>
+		</figcaption>
+	</figure>
+
+	{{ if .quote }}
+		<blockquote class="employee__quote"><p>{{ .quote | markdownify }}</p><cite>{{ .quoteCitation | markdownify }}</cite></blockquote>
+	{{ end }}
+
+	{{ with .skill }}
+		<div class="skill-lockup">
+			{{ range . }}
+				<div class="skill-unit">
+					<div class="skill-label">{{ .name }}</div>
+					<div class="skill-icons skill-{{ .value }}">
+						{{ range (seq 10) }}
+							<span></span>
+						{{ end }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+	{{ end }}
+</div>

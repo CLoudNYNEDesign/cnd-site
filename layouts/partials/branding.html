@@ -1,0 +1,11 @@
+<div id="branding" class="branding">
+	<div id="logo" class="branding--logo">
+		<a href="/"><img src="{{ .Site.BaseURL }}images/logo.png" alt="CLoud NYNE Design" /></a>
+	</div>
+	<div class="branding--site-name">
+		{{ with .Site.Params.header.title }}<h1 class="site-name">{{ . }}</h1>{{ end }}
+	</div>
+	<div class="branding--site-slogan">
+		{{ with .Site.Params.header.shortBio }}<h3> {{ . }}</h3>{{ end }} <br/><br/>
+	</div>
+</div>

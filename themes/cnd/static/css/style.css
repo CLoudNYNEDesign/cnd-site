@@ -1,0 +1,2028 @@
+@import url(http://fonts.googleapis.com/css?family=Homenaje);
+/**
+ * Lists
+ */
+/**
+ * Panel Styles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000337}}
+[data-show="mobile"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+@media screen and (max-width: 37.499em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000337}}
+  [data-show="mobile"] {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000347}}
+[data-show="tablet"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+@media screen and (min-width: 37.5em) and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000347}}
+  [data-show="tablet"] {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000357}}
+[data-show="desktop"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000357}}
+  [data-show="desktop"] {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000367}}
+[data-hide="mobile"] {
+  display: block;
+  visibility: visible;
+}
+@media screen and (max-width: 37.499em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000367}}
+  [data-hide="mobile"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000377}}
+[data-hide="tablet"] {
+  display: block;
+  visibility: visible;
+}
+@media screen and (min-width: 37.5em) and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000377}}
+  [data-hide="tablet"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000387}}
+[data-hide="desktop"] {
+  display: block;
+  visibility: visible;
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/global\/mixins\/_utility\.scss}line{font-family:\0000387}}
+  [data-hide="desktop"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\000035}}
+.input_tiny {
+  width: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\000039}}
+.input_small {
+  width: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000313}}
+.input_medium {
+  width: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000317}}
+.input_large {
+  width: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000321}}
+.input_xlarge {
+  width: 250px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000325}}
+.input_xxlarge {
+  width: 300px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000329}}
+.input_full {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000336}}
+.input_full_wrap {
+  display: block;
+  padding-right: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000344}}
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000355}}
+input:invalid,
+button:invalid,
+a.button:invalid,
+select:invalid,
+textarea:invalid {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000359}}
+input:focus,
+button:focus,
+a.button:focus,
+select:focus,
+textarea:focus {
+  -webkit-box-shadow: #0066ff 0 0 5px 0;
+  -moz-box-shadow: #0066ff 0 0 5px 0;
+  box-shadow: #0066ff 0 0 5px 0;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000370}}
+input[type="file"]:focus, input[type="file"]:active,
+input[type="radio"]:focus,
+input[type="radio"]:active,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\0000379}}
+button,
+a.button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background: #dddddd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(#ffffff, #dddddd);
+  background-image: -moz-linear-gradient(#ffffff, #dddddd);
+  background-image: -o-linear-gradient(#ffffff, #dddddd);
+  background-image: linear-gradient(#ffffff, #dddddd);
+  border: 1px solid;
+  border-color: #dddddd #bbbbbb #999999;
+  cursor: pointer;
+  color: #333333;
+  display: inline-block;
+  font: bold 12px / 1.3 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  outline: 0;
+  overflow: visible;
+  margin: 0;
+  padding: 3px 10px;
+  text-shadow: white 0 1px 1px;
+  text-decoration: none;
+  vertical-align: top;
+  width: auto;
+  *padding-top: 2px;
+  *padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003101}}
+button:hover,
+a.button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(1px, #eeeeee), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(#ffffff, #eeeeee 1px, #cccccc);
+  background-image: -moz-linear-gradient(#ffffff, #eeeeee 1px, #cccccc);
+  background-image: -o-linear-gradient(#ffffff, #eeeeee 1px, #cccccc);
+  background-image: linear-gradient(#ffffff, #eeeeee 1px, #cccccc);
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003105}}
+button:active,
+a.button:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(#dddddd, #eeeeee);
+  background-image: -moz-linear-gradient(#dddddd, #eeeeee);
+  background-image: -o-linear-gradient(#dddddd, #eeeeee);
+  background-image: linear-gradient(#dddddd, #eeeeee);
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
+  box-shadow: inset rgba(0, 0, 0, 0.25) 0 1px 2px 0;
+  border-color: #999999 #bbbbbb #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003115}}
+button::-moz-focus-inner,
+a.button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003121}}
+a.button {
+  *padding-bottom: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003126}}
+button {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003146}}
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid;
+  border-color: #848484 #c1c1c1 #e1e1e1;
+  color: black;
+  outline: 0;
+  margin: 0;
+  padding: 2px 3px;
+  text-align: left;
+  font-size: 13px;
+  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+  height: 1.8em;
+  vertical-align: top;
+  *padding-top: 2px;
+  *padding-bottom: 1px;
+  *height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003169}}
+textarea[disabled],
+select[disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="number"][disabled],
+input[type="password"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="text"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+input[type="week"][disabled] {
+  background-color: #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003180}}
+button[disabled],
+input[disabled],
+select[disabled],
+select[disabled] option,
+select[disabled] optgroup,
+textarea[disabled],
+a.button_disabled {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  color: #888888;
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003194}}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #888888;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003199}}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #888888;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003204}}
+input.placeholder_text,
+textarea.placeholder_text {
+  color: #888888;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003210}}
+textarea,
+select[size],
+select[multiple] {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003217}}
+select[size="0"],
+select[size="1"] {
+  height: 1.8em;
+  *height: auto;
+}
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003227}}
+  select[size],
+  select[multiple],
+  select[multiple][size] {
+    background-image: none;
+    padding-right: 3px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003233}}
+  select,
+  select[size="0"],
+  select[size="1"] {
+    background-image: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003240}}
+  ::-webkit-validation-bubble-message {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, black));
+    border: 0;
+    color: white;
+    font: 13px / 17px "Lucida Grande", Arial, "Liberation Sans", FreeSans, sans-serif;
+    overflow: hidden;
+    padding: 15px 15px 17px;
+    text-shadow: black 0 0 1px;
+    min-height: 16px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003254}}
+  ::-webkit-validation-bubble-arrow,
+  ::-webkit-validation-bubble-top-outer-arrow,
+  ::-webkit-validation-bubble-top-inner-arrow {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #666666;
+    border-color: #666666;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003262}}
+textarea {
+  min-height: 40px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003269}}
+optgroup {
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003277}}
+optgroup::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003308}}
+.ie6_button,
+* html button,
+* html a.button {
+  border: 1px solid;
+  border-color: #dddddd #bbbbbb #999999;
+  cursor: pointer;
+  color: #333333;
+  font: bold 12px / 1.2 Arial, sans-serif;
+  padding: 2px 10px 0px;
+  text-decoration: none;
+  overflow: visible;
+  vertical-align: top;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003321}}
+* html a.button {
+  position: relative;
+  top: 3px;
+  padding-bottom: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003327}}
+* html button {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003334}}
+.ie6_input,
+* html textarea,
+* html select {
+  background: white;
+  border: 1px solid;
+  border-color: #848484 #c1c1c1 #e1e1e1;
+  color: black;
+  padding: 2px 3px 1px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003345}}
+* html select {
+  margin-top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003351}}
+.placeholder_text,
+.ie6_input_disabled,
+.ie6_button_disabled {
+  color: #888888;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_formalize\.scss}line{font-family:\00003355}}
+.ie6_input_disabled {
+  background: #eeeeee;
+}
+
+/* normalize.css v2.1.2 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000332}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000341}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000350}}
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000364}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000374}}
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000386}}
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\0000395}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003108}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003117}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003126}}
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003134}}
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003142}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003152}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003164}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003173}}
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003181}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003189}}
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003198}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003205}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003209}}
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003221}}
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003229}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003241}}
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003253}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003264}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003278}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003290}}
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003302}}
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003317}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003327}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003337}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003348}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003361}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003370}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003380}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/vendor\/_normalize\.scss}line{font-family:\00003393}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\000035}}
+button,
+a.button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 0 rgba(252, 252, 252, 0.5) inset, 0 -1px 0 rgba(4, 38, 92, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(252, 252, 252, 0.5) inset, 0 -1px 0 rgba(4, 38, 92, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(252, 252, 252, 0.5) inset, 0 -1px 0 rgba(4, 38, 92, 0.2) inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background: #0cacff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0cacff), color-stop(100%, #299de6));
+  background-image: -webkit-linear-gradient(center top, #0cacff, #299de6);
+  background-image: -moz-linear-gradient(center top, #0cacff, #299de6);
+  background-image: -o-linear-gradient(center top, #0cacff, #299de6);
+  background-image: linear-gradient(center top, #0cacff, #299de6);
+  border: 1px solid;
+  border-color: #0062a0 #0072ba #00436d #05275e;
+  cursor: pointer;
+  color: #fcfcfc;
+  display: inline-block;
+  outline: 0;
+  overflow: visible;
+  margin: 0;
+  padding: 0.3em 0.8em;
+  text-shadow: 1px 1px 0 rgba(26, 26, 26, 0.4);
+  text-decoration: none;
+  vertical-align: top;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000327}}
+button:hover,
+a.button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #299de6), color-stop(100%, #0062a0));
+  background-image: -webkit-linear-gradient(center top, #299de6, #0062a0);
+  background-image: -moz-linear-gradient(center top, #299de6, #0062a0);
+  background-image: -o-linear-gradient(center top, #299de6, #0062a0);
+  background-image: linear-gradient(center top, #299de6, #0062a0);
+  border-color: #299de6 #0cacff #0062a0 #0062a0;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(26, 26, 26, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000334}}
+button:active,
+a.button:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0062a0), color-stop(100%, #299de6));
+  background-image: -webkit-linear-gradient(#0062a0, #299de6);
+  background-image: -moz-linear-gradient(#0062a0, #299de6);
+  background-image: -o-linear-gradient(#0062a0, #299de6);
+  background-image: linear-gradient(#0062a0, #299de6);
+  -webkit-box-shadow: rgba(26, 26, 26, 0.25) 0 1px 2px 0 inset;
+  -moz-box-shadow: rgba(26, 26, 26, 0.25) 0 1px 2px 0 inset;
+  box-shadow: rgba(26, 26, 26, 0.25) 0 1px 2px 0 inset;
+  border-color: #299de6 #299de6 #3fbdff #24b4ff;
+  color: #ccdfec;
+  text-shadow: 0 -1px 0 rgba(26, 26, 26, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000342}}
+button.action--negative,
+a.button.action--negative,
+input[type="reset"].action--negative,
+input[type="submit"].action--negative,
+input[type="button"].action--negative {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff0000), color-stop(100%, #990000));
+  background-image: -webkit-linear-gradient(center top, #ff0000, #990000);
+  background-image: -moz-linear-gradient(center top, #ff0000, #990000);
+  background-image: -o-linear-gradient(center top, #ff0000, #990000);
+  background-image: linear-gradient(center top, #ff0000, #990000);
+  -webkit-box-shadow: 0 1px 0 rgba(252, 252, 252, 0.5) inset, 0 -1px 0 rgba(249, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(252, 252, 252, 0.5) inset, 0 -1px 0 rgba(249, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(252, 252, 252, 0.5) inset, 0 -1px 0 rgba(249, 0, 0, 0.2) inset;
+  border-color: #cc0000 red #b30000 #cc0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000347}}
+button.action--negative:hover,
+a.button.action--negative:hover,
+input[type="reset"].action--negative:hover,
+input[type="submit"].action--negative:hover,
+input[type="button"].action--negative:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d0000), color-stop(100%, #cc0000));
+  background-image: -webkit-linear-gradient(center top, #4d0000, #cc0000);
+  background-image: -moz-linear-gradient(center top, #4d0000, #cc0000);
+  background-image: -o-linear-gradient(center top, #4d0000, #cc0000);
+  background-image: linear-gradient(center top, #4d0000, #cc0000);
+  border-bottom-color: #e60000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000351}}
+button.action--negative:hover:after,
+a.button.action--negative:hover:after,
+input[type="reset"].action--negative:hover:after,
+input[type="submit"].action--negative:hover:after,
+input[type="button"].action--negative:hover:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000356}}
+button.action--negative:after,
+a.button.action--negative:after,
+input[type="reset"].action--negative:after,
+input[type="submit"].action--negative:after,
+input[type="button"].action--negative:after {
+  content: "x";
+  color: #fcfcfc;
+  font-weight: normal;
+  text-shadow: 1px -1px 0 #1a1a1a, -1px 1px 1px rgba(252, 252, 252, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000364}}
+button.icon,
+a.button.icon,
+input[type="reset"].icon,
+input[type="submit"].icon,
+input[type="button"].icon {
+  padding-right: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_form\.scss}line{font-family:\0000367}}
+button.icon:after,
+a.button.icon:after,
+input[type="reset"].icon:after,
+input[type="submit"].icon:after,
+input[type="button"].icon:after {
+  position: absolute;
+  right: 0.6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\0000314}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_html\.scss}line{font-family:\000033}}
+html {
+  background-color: white;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_html\.scss}line{font-family:\0000310}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * Sprite Mapping
+ *  - Social Media Icons
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_sprites\.scss}line{font-family:\000035}}
+.spritesheet {
+  background-image: url('/images/spritesheet.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  /* Twitter */
+  /* FaceBook */
+  /* Dribbble */
+  /* LinkedIn */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_sprites\.scss}line{font-family:\0000312}}
+.spritesheet.icntw {
+  background-position: 0 -267px;
+  height: 23px;
+  top: 20px;
+  width: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_sprites\.scss}line{font-family:\0000320}}
+.spritesheet.icnfb {
+  background-position: 0 -300px;
+  height: 27px;
+  top: 18px;
+  width: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_sprites\.scss}line{font-family:\0000328}}
+.spritesheet.icndribbble {
+  background-position: 0 -337px;
+  height: 29px;
+  top: 17px;
+  width: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_sprites\.scss}line{font-family:\0000336}}
+.spritesheet.icnlinkedin {
+  background-position: 0 -415px;
+  height: 20px;
+  top: 21px;
+  width: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\000036}}
+h1 {
+  font-size: 2.75em;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #fcfcfc;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\0000322}}
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:focus, h1 a:active, h1 a.active, h1 a.active-trail {
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\000036}}
+h2 {
+  font-size: 2.3125em;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #fcfcfc;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\0000322}}
+h2 a:link, h2 a:visited, h2 a:hover, h2 a:focus, h2 a:active, h2 a.active, h2 a.active-trail {
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\000036}}
+h3 {
+  font-size: 1.6875em;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #fcfcfc;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\0000322}}
+h3 a:link, h3 a:visited, h3 a:hover, h3 a:focus, h3 a:active, h3 a.active, h3 a.active-trail {
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\000036}}
+h4 {
+  font-size: 1.4375em;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #fcfcfc;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\0000322}}
+h4 a:link, h4 a:visited, h4 a:hover, h4 a:focus, h4 a:active, h4 a.active, h4 a.active-trail {
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\000036}}
+h5 {
+  font-size: 1.125em;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #fcfcfc;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\0000322}}
+h5 a:link, h5 a:visited, h5 a:hover, h5 a:focus, h5 a:active, h5 a.active, h5 a.active-trail {
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\000036}}
+h6 {
+  font-size: 1em;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #fcfcfc;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/html\/_typography\.scss}line{font-family:\0000322}}
+h6 a:link, h6 a:visited, h6 a:hover, h6 a:focus, h6 a:active, h6 a.active, h6 a.active-trail {
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/page\/_page\.scss}line{font-family:\000032}}
+.page,
+.zone {
+  width: 100%;
+  position: relative;
+}
+
+/* .l-page-top, */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/base\/page\/_page\.scss}line{font-family:\0000332}}
+.l-header,
+.l-preface,
+.l-main,
+.l-postscript,
+.l-sidebar-first,
+.l-sidebar-second,
+.l-footer,
+.l-footer-sub {
+  *zoom: 1;
+  max-width: 81.6em;
+  _width: 81.6em;
+  padding-left: 2.4em;
+  padding-right: 2.4em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.l-header:after,
+.l-preface:after,
+.l-main:after,
+.l-postscript:after,
+.l-sidebar-first:after,
+.l-sidebar-second:after,
+.l-footer:after,
+.l-footer-sub:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_branding\.scss}line{font-family:\000031}}
+.branding {
+  color: #fcfcfc;
+  font-family: "Homenaje", Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_branding\.scss}line{font-family:\000037}}
+.branding--logo {
+  padding-top: 4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_branding\.scss}line{font-family:\0000310}}
+.branding--logo img {
+  vertical-align: bottom;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_branding\.scss}line{font-family:\0000315}}
+.site-name {
+  color: #d6d6d6;
+  display: block;
+  font-size: 32px;
+  letter-spacing: 0.015em;
+  margin: 0 auto 0.5em;
+  text-shadow: 1px 0 0 #fcfcfc, 0px 0px 0 #9f9f9f, -1px 1px 0 #717171, -2px 2px 0 #444444, -3px 3px 0 #171717, -4px 4px 3px rgba(26, 26, 26, 0.4), -4px 4px 1px rgba(26, 26, 26, 0.5), 0px 0px 3px rgba(26, 26, 26, 0.2), -6px 6px 11px rgba(5, 39, 94, 0.9), -16px 16px 20px rgba(5, 39, 94, 0.6);
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_branding\.scss}line{font-family:\0000315}}
+  .site-name {
+    font-size: 56px;
+    text-indent: 16px;
+  }
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_branding\.scss}line{font-family:\0000315}}
+  .site-name {
+    font-size: 84px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\000031}}
+.w-footer {
+  min-height: 435px;
+  padding: 74px 0;
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\000031}}
+  .w-footer {
+    /* min-height: 600px; */
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000311}}
+footer {
+  text-align: center;
+  bottom: 74px;
+  left: 50%;
+  margin-left: -35%;
+  position: fixed;
+  width: 70%;
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000320}}
+footer .contactus {
+  *zoom: 1;
+  max-width: 81.6em;
+  _width: 81.6em;
+  padding-left: 2.4em;
+  padding-right: 2.4em;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.6);
+  display: block;
+  letter-spacing: -1px;
+  margin-bottom: 34px;
+  overflow: hidden;
+  padding-bottom: 2.125em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+footer .contactus:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000329}}
+footer .contactus li {
+  color: white;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 700;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000329}}
+  footer .contactus li {
+    margin-right: 34px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000338}}
+  footer .contactus li:last-child {
+    margin-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000344}}
+footer .contactus a.mail {
+  position: relative;
+  font-size: 16px;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000344}}
+  footer .contactus a.mail {
+    padding-left: 50px;
+    font-size: 28px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000352}}
+  footer .contactus a.mail:after {
+    background: url('/images/spritesheet.png') no-repeat scroll 0 -476px transparent;
+    content: "";
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 36px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000364}}
+footer .contactus span.phone {
+  color: #fcfcfc;
+  position: relative;
+  font-size: 20px;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000364}}
+  footer .contactus span.phone {
+    font-size: 28px;
+    padding-left: 21px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000373}}
+  footer .contactus span.phone:after {
+    background: url('/images/spritesheet.png') no-repeat scroll 0 -510px transparent;
+    content: "";
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 10px;
+  }
+}
+@media screen and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/components\/site\/_footer\.scss}line{font-family:\0000320}}
+  footer .contactus {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* No files to import found in layout/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\000031}}
+html {
+  min-height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\000035}}
+.container {
+  color: #f6f6f6;
+  font-weight: normal;
+  text-shadow: 0 2px 4px #002E46;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000312}}
+.z-header,
+.z-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000316}}
+.z-header {
+  background-image: -webkit-gradient(radial, 100% 100%, 0, 100% 100%, 100, color-stop(0%, #299de6), color-stop(100%, #22194c));
+  background-image: -webkit-radial-gradient(right bottom, #299de6, #22194c);
+  background-image: -moz-radial-gradient(right bottom, #299de6, #22194c);
+  background-image: -o-radial-gradient(right bottom, #299de6, #22194c);
+  background-image: radial-gradient(right bottom, #299de6, #22194c);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000320}}
+.z-content {
+  background-image: -webkit-gradient(radial, 100% 0%, 0, 100% 0%, 100, color-stop(0%, #299de6), color-stop(100%, #22194c));
+  background-image: -webkit-radial-gradient(right top, #299de6, #22194c);
+  background-image: -moz-radial-gradient(right top, #299de6, #22194c);
+  background-image: -o-radial-gradient(right top, #299de6, #22194c);
+  background-image: radial-gradient(right top, #299de6, #22194c);
+  -webkit-box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.4) inset, 0 10px 20px -10px rgba(255, 255, 255, 0.4) inset;
+  -moz-box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.4) inset, 0 10px 20px -10px rgba(255, 255, 255, 0.4) inset;
+  box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.4) inset, 0 10px 20px -10px rgba(255, 255, 255, 0.4) inset;
+  border-top: 1px solid #697d9e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000329}}
+.z-footer {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(10%, #22194c), color-stop(100%, #580756));
+  background-image: -webkit-linear-gradient(center top, #22194c 10%, #580756);
+  background-image: -moz-linear-gradient(center top, #22194c 10%, #580756);
+  background-image: -o-linear-gradient(center top, #22194c 10%, #580756);
+  background-image: linear-gradient(center top, #22194c 10%, #580756);
+  -webkit-box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.4) inset;
+  background-color: #22194c;
+  border-top: 1px solid #05275e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000336}}
+.z-footer-sub {
+  /* background-color: $dark-grey; */
+  background-image: -webkit-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: -moz-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: -o-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  -webkit-border-radius: 4px 4px 2px 2px;
+  -moz-border-radius: 4px 4px 2px 2px;
+  -ms-border-radius: 4px 4px 2px 2px;
+  -o-border-radius: 4px 4px 2px 2px;
+  border-radius: 4px 4px 2px 2px;
+  -webkit-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  -moz-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  border-color: rgba(3, 73, 65, 0.8) rgba(122, 222, 244, 0.8);
+  border-style: solid;
+  border-width: 2px 2px 3px;
+  padding: 0.875em;
+  background-color: rgba(105, 186, 237, 0.3);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  border-left: medium none;
+  border-right: medium none;
+  border-bottom: medium none;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\000031}}
+html {
+  min-height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\000035}}
+.container {
+  color: #f6f6f6;
+  font-weight: normal;
+  text-shadow: 0 2px 4px #002E46;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000312}}
+.z-header,
+.z-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000316}}
+.z-header {
+  background-image: -webkit-gradient(radial, 100% 100%, 0, 100% 100%, 100, color-stop(0%, #299de6), color-stop(100%, #22194c));
+  background-image: -webkit-radial-gradient(right bottom, #299de6, #22194c);
+  background-image: -moz-radial-gradient(right bottom, #299de6, #22194c);
+  background-image: -o-radial-gradient(right bottom, #299de6, #22194c);
+  background-image: radial-gradient(right bottom, #299de6, #22194c);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000320}}
+.z-content {
+  background-image: -webkit-gradient(radial, 100% 0%, 0, 100% 0%, 100, color-stop(0%, #299de6), color-stop(100%, #22194c));
+  background-image: -webkit-radial-gradient(right top, #299de6, #22194c);
+  background-image: -moz-radial-gradient(right top, #299de6, #22194c);
+  background-image: -o-radial-gradient(right top, #299de6, #22194c);
+  background-image: radial-gradient(right top, #299de6, #22194c);
+  -webkit-box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.4) inset, 0 10px 20px -10px rgba(255, 255, 255, 0.4) inset;
+  -moz-box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.4) inset, 0 10px 20px -10px rgba(255, 255, 255, 0.4) inset;
+  box-shadow: 0 -10px 20px -10px rgba(0, 0, 0, 0.4) inset, 0 10px 20px -10px rgba(255, 255, 255, 0.4) inset;
+  border-top: 1px solid #697d9e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000329}}
+.z-footer {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(10%, #22194c), color-stop(100%, #580756));
+  background-image: -webkit-linear-gradient(center top, #22194c 10%, #580756);
+  background-image: -moz-linear-gradient(center top, #22194c 10%, #580756);
+  background-image: -o-linear-gradient(center top, #22194c 10%, #580756);
+  background-image: linear-gradient(center top, #22194c 10%, #580756);
+  -webkit-box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.4) inset;
+  background-color: #22194c;
+  border-top: 1px solid #05275e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/_base\.scss}line{font-family:\0000336}}
+.z-footer-sub {
+  /* background-color: $dark-grey; */
+  background-image: -webkit-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: -moz-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: -o-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  -webkit-border-radius: 4px 4px 2px 2px;
+  -moz-border-radius: 4px 4px 2px 2px;
+  -ms-border-radius: 4px 4px 2px 2px;
+  -o-border-radius: 4px 4px 2px 2px;
+  border-radius: 4px 4px 2px 2px;
+  -webkit-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  -moz-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  border-color: rgba(3, 73, 65, 0.8) rgba(122, 222, 244, 0.8);
+  border-style: solid;
+  border-width: 2px 2px 3px;
+  padding: 0.875em;
+  background-color: rgba(105, 186, 237, 0.3);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  border-left: medium none;
+  border-right: medium none;
+  border-bottom: medium none;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/**
+ * Feature
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\000034}}
+.feature {
+  width: 100%;
+  float: left;
+  margin-right: 1.5625%;
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\000036}}
+.feature .thanks {
+  text-align: center;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\000034}}
+  .feature {
+    width: 83.07292%;
+    float: left;
+    margin-right: 1.5625%;
+    display: inline;
+    margin-left: 8.46354%;
+    font-size: 1.2em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000315}}
+  .feature p {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\000034}}
+  .feature {
+    width: 66.14583%;
+    float: left;
+    margin-right: 1.5625%;
+    display: inline;
+    margin-left: 16.92708%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000324}}
+  .feature .thanks {
+    text-align: left;
+  }
+}
+
+/**
+ * Social Media
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000333}}
+.block--social-media {
+  width: 100%;
+  float: left;
+  margin-right: 1.5625%;
+  display: inline;
+  text-align: center;
+  margin-bottom: 1.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000338}}
+.block--social-media .block--title {
+  display: inline-block;
+  margin: 0.125em 0 0;
+  vertical-align: text-top;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000338}}
+  .block--social-media .block--title {
+    padding-right: 1em !important;
+  }
+}
+@media screen and (max-width: 37.499em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000338}}
+  .block--social-media .block--title {
+    *zoom: 1;
+    max-width: 81.6em;
+    _width: 81.6em;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .block--social-media .block--title:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000356}}
+ul.social-media {
+  margin-bottom: 0.625em;
+  padding-bottom: 0.5em;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000362}}
+ul.social-media li {
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000367}}
+ul.social-media li:last-child {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000371}}
+ul.social-media li a {
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  position: relative;
+  z-index: 5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000377}}
+ul.social-media li a:link, ul.social-media li a:visited {
+  -webkit-box-shadow: 0 0 0.5em 2px rgba(5, 39, 94, 0.4) inset;
+  -moz-box-shadow: 0 0 0.5em 2px rgba(5, 39, 94, 0.4) inset;
+  box-shadow: 0 0 0.5em 2px rgba(5, 39, 94, 0.4) inset;
+  background-color: #0cacff;
+  display: inline-block;
+  width: 70px;
+  height: 65px;
+  left: 0;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000388}}
+ul.social-media li a:hover, ul.social-media li a:focus {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: -2px -2px 8px rgba(26, 26, 26, 0.2) inset, 2px 2px 6px rgba(252, 252, 252, 0.15) inset, 0px 0px 1px #0cacff, 1px 1px 1px #fcfcfc, 2px 2px 1px white, 3px 3px 1px white, 4px 4px 0 whitesmoke, 20px 18px 24px rgba(18, 18, 18, 0.5);
+  -moz-box-shadow: -2px -2px 8px rgba(26, 26, 26, 0.2) inset, 2px 2px 6px rgba(252, 252, 252, 0.15) inset, 0px 0px 1px #0cacff, 1px 1px 1px #fcfcfc, 2px 2px 1px white, 3px 3px 1px white, 4px 4px 0 whitesmoke, 20px 18px 24px rgba(18, 18, 18, 0.5);
+  box-shadow: -2px -2px 8px rgba(26, 26, 26, 0.2) inset, 2px 2px 6px rgba(252, 252, 252, 0.15) inset, 0px 0px 1px #0cacff, 1px 1px 1px #fcfcfc, 2px 2px 1px white, 3px 3px 1px white, 4px 4px 0 whitesmoke, 20px 18px 24px rgba(18, 18, 18, 0.5);
+  background-color: #0088ce;
+  left: -7px;
+  top: -7px;
+}
+@media screen and (max-width: 37.499em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000362}}
+  ul.social-media li {
+    width: 32.29167%;
+    float: left;
+    margin-right: 1.5625%;
+    display: inline;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.8\/sass\/susy\/_grid\.scss}line{font-family:\00003184}}
+  ul.social-media li:last-child {
+    float: right;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 37.499em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000356}}
+  ul.social-media {
+    *zoom: 1;
+    max-width: 81.6em;
+    _width: 81.6em;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BLadwin\/\.rbenv\/versions\/1\.9\.3-p194\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  ul.social-media:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\0000356}}
+  ul.social-media {
+    display: inline-block;
+  }
+}
+
+/**
+ * Newsletter
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003125}}
+.webform--newsletter {
+  -webkit-transition: all 400ms ease-in;
+  -moz-transition: all 400ms ease-in;
+  -o-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
+  opacity: 0;
+  background-color: rgba(26, 26, 26, 0.8);
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003136}}
+.webform--newsletter.modal {
+  -webkit-transition: all 400ms ease-in;
+  -moz-transition: all 400ms ease-in;
+  -o-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
+  opacity: 1;
+  z-index: 50;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003142}}
+.webform--newsletter .close {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003148}}
+.webform--newsletter form {
+  background-image: -webkit-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: -moz-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: -o-linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  background-image: linear-gradient(-45deg, rgba(122, 222, 244, 0.3) 0%, rgba(216, 225, 231, 0.4) 35.5%, rgba(181, 198, 208, 0.3) 35.6%, rgba(224, 239, 249, 0.05) 100%);
+  -webkit-border-radius: 4px 4px 2px 2px;
+  -moz-border-radius: 4px 4px 2px 2px;
+  -ms-border-radius: 4px 4px 2px 2px;
+  -o-border-radius: 4px 4px 2px 2px;
+  border-radius: 4px 4px 2px 2px;
+  -webkit-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  -moz-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6);
+  border-color: rgba(3, 73, 65, 0.8) rgba(122, 222, 244, 0.8);
+  border-style: solid;
+  border-width: 2px 2px 3px;
+  padding: 0.875em;
+  background-color: rgba(105, 186, 237, 0.3);
+  -webkit-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6), 0 18px 24px 6px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6), 0 18px 24px 6px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 3px 6px rgba(122, 222, 244, 0.3), 0 1px rgba(255, 255, 255, 0.3) inset, 0 10px 0 rgba(3, 73, 65, 0.3) inset, 0 10px 20px rgba(255, 255, 255, 0.25) inset, 0 -10px 3px rgba(3, 73, 65, 0.3) inset, -5px 0 4px rgba(3, 73, 65, 0.4) inset, 5px 0 4px rgba(3, 73, 65, 0.4) inset, 0 10px 20px rgba(3, 73, 65, 0.6), 0 18px 24px 6px rgba(0, 0, 0, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003163}}
+.webform--newsletter #mc_embed_signup {
+  background-color: rgba(154, 182, 179, 0.4);
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  margin-top: -115px;
+  margin-left: -45%;
+}
+@media screen and (min-width: 37.5em) and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003163}}
+  .webform--newsletter #mc_embed_signup {
+    width: 70%;
+    margin-left: -35%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003163}}
+  .webform--newsletter #mc_embed_signup {
+    text-align: center;
+    width: 820px;
+    margin-left: -410px;
+  }
+}
+@media screen and (max-width: 37.499em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003186}}
+  .webform--newsletter .title {
+    font-size: 24px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003191}}
+  .webform--newsletter .mc-field-group,
+  .webform--newsletter .mc-field-submit {
+    display: block;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003196}}
+  .webform--newsletter input {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003206}}
+#mc_embed_signup .title,
+#mc_embed_signup .mc-field-group,
+#mc_embed_signup .mc-field-submit {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003212}}
+#mc_embed_signup .title:after {
+  content: " :";
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003211}}
+  #mc_embed_signup .title {
+    padding-right: 0.5em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003222}}
+#mc_embed_signup .mc-field-group,
+#mc_embed_signup .mc-field-submit {
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003225}}
+#mc_embed_signup .mc-field-group input,
+#mc_embed_signup .mc-field-submit input {
+  font-size: 1.3em;
+}
+@media screen and (min-width: 37.5em) and (max-width: 56.249em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003222}}
+  #mc_embed_signup .mc-field-group,
+  #mc_embed_signup .mc-field-submit {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003222}}
+  #mc_embed_signup .mc-field-group,
+  #mc_embed_signup .mc-field-submit {
+    margin-bottom: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003238}}
+#mc_embed_signup label {
+  display: none;
+}
+
+/**
+ * Copyright
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003246}}
+.block--copyright {
+  width: 100%;
+  float: left;
+  margin-right: 1.5625%;
+  display: inline;
+  color: #bababa;
+  font-size: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003251}}
+.block--copyright p {
+  margin: 0.5em 0;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003246}}
+  .block--copyright {
+    font-size: 0.625em;
+  }
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003246}}
+  .block--copyright {
+    font-size: 0.8em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003264}}
+p.newsletter {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_blocks\.scss}line{font-family:\00003269}}
+p.newsletter button {
+  margin: 0.25em 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_branding\.scss}line{font-family:\000032}}
+#video-container {
+  background: url('/images/feature.jpg') no-repeat scroll center center transparent;
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_branding\.scss}line{font-family:\0000313}}
+video {
+  position: absolute;
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_branding\.scss}line{font-family:\0000317}}
+video.fillWidth {
+  min-width: 100%;
+  height: 120%;
+  width: auto;
+  top: -20%;
+}
+@media screen and (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/theme\/components\/_branding\.scss}line{font-family:\0000317}}
+  video.fillWidth {
+    top: 0;
+    min-width: 100%;
+    height: auto;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000316}}
+a {
+  -webkit-transition: all 0.2s ease-in;
+  -webkit-transition-delay: 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000320}}
+a:link, a:visited {
+  color: #e759e3;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000324}}
+a:link.drupal, a:visited.drupal {
+  color: #299de6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000328}}
+a:link.drupal:hover, a:link.drupal:focus, a:visited.drupal:hover, a:visited.drupal:focus {
+  color: #0062a0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000335}}
+a:hover, a:focus {
+  color: #dd13d7;
+}
+
+/*
+.button{
+	margin-top:1em;
+	height:3em;
+	padding:0 5em;
+}
+
+.page{
+	box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.10);
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000355}}
+.header h1 {
+  text-align: center;
+}
+@media screen and (min-width: 56.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/Storage\/Users\/BLadwin\/Sites\/_static\/CND\/coming\%20soon\/prototype\/app\/scss\/style\.scss}line{font-family:\0000358}}
+  .header h2 {
+    margin-top: 0;
+  }
+}
+
+/*
+.avatar-image img{
+  border-radius:50%;
+}
+*/

@@ -1,0 +1,90 @@
+# Site settings
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Artists Theme"
+theme = "cnd"
+
+[params]
+
+  # You can use Markdown syntax for urls [text](//url.to/source) for
+  # most longer texts.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "CLoud NYNE Design, LLC"
+  description = "Drupal, Drupal, Drupal! It's what we know; we're experts."
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+  #
+  # What you need to do for the setup?
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email yourself to confirm your account
+  # - click the confirm link in the email from www.formspree.io
+  # - you're done. Happy mailing!
+  email = "hello@cloudnynedesign.com"
+
+
+  # Header an navigation
+  #
+  # To change the header background the 'hero-bg-jpg' at 'static/img'.
+  # Do the same with the logo ('logo.svg').
+  # But keep the original filename!
+  [params.header]
+    title = "Cloud NYNE Design"
+    shortBio = "Creative Design // Marketing // Web Development"
+
+
+  # About section
+  #
+  # Replace the 'avatar.jpg' under 'static/img' with your own image.
+  [params.about]
+    title = "About Us"
+    bio = "CND has been around for a while. We've done some pretty cool things. Let's team up, and your next project could be our next awesome thing."
+
+  # Contact secion
+  [params.contact]
+    title = "Contact"
+
+    # The following social network icons are available:
+    # 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
+    # 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+    [[params.contact.social]]
+      name = "Twitter"
+      icon = "tw"
+      link = "//twitter.com/CLoudNYNEDesign"
+
+    [[params.contact.social]]
+      name = "Facebook"
+      icon = "fb"
+      link = "//facebook.com/CLoudNYNEDesign"
+
+    [[params.contact.social]]
+      name = "YouTube"
+      icon = "yt"
+      link = "//www.youtube.com/CLoudNYNEDesign"
+
+    [[params.contact.social]]
+      name = "LinkedIn"
+      icon = "linkedin"
+      link = "//www.linkedin.com/company/cloud-nyne-design-llc"
+
+
+  [params.form]
+    title = "Let's work together"
+    # Form fields
+    name = "Your Name"
+    email = "Your Email"
+    message = "Tell me about your project"
+    buttonText = "Send"
+
+
+  [params.post]
+    title = "Blog"
+
+
+  [params.footer]
+    copyright = "Published under the Unlicense License."

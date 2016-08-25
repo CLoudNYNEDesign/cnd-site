@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "header.html"  . }}
+
+    <main class="content" role="main">
+      <div class="container">
+        {{ range .Paginator.Pages }}
+          {{ .Render "li" }}
+        {{ end }}
+        {{ partial "pagination.html" . }}
+      </div>
+    </main>
+
+    {{ partial "footer.html"  . }}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/functions.js"></script>
+  </body>
+</html>

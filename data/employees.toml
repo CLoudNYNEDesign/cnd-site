@@ -1,0 +1,62 @@
+# Section title
+title = "Who we are"
+
+[[person]]
+  avatar = "theotherguy.jpg"
+  name = "John Learned"
+  title = "Principal Drupal Developer, Vice President, CTO"
+	email = "TheOtherGuy@cloudnynedesign.com"
+  quote = ""
+  [[person.skill]]
+		name = "Communication"
+		value = 9
+	[[person.skill]]
+		name = "Organization"
+		value = 9
+	[[person.skill]]
+		name = "Teaching"
+		value = 7
+	[[person.skill]]
+		name = "Programming"
+		value = 8
+	[[person.skill]]
+		name = "Planning"
+		value = 9
+	[[person.skill]]
+		name = "Drupal"
+		value = 10
+	[[person.skill]]
+		name = "Linux/Unix"
+		value = 9
+
+[[person]]
+  avatar = "thatguy.jpg"
+  name = "Erik Baldwin"
+  title = "Principal Front-end Engineer, President, CEO"
+	email = "ThatGuy@cloudnynedesign.com"
+  quote = "**To do a dull thing with style is preferable to doing a dangerous thing without it. To do a dangerous thing with style is what I call art.**"
+  quoteCitation = "_Charles Bukowski_"
+  [[person.skill]]
+		name = "Communication"
+		value = 9
+	[[person.skill]]
+		name = "Organization"
+		value = 8
+	[[person.skill]]
+		name = "Visual Design"
+		value = 9
+	[[person.skill]]
+		name = "UX Design"
+		value = 8
+	[[person.skill]]
+		name ="Programming"
+		value = 8
+	[[person.skill]]
+		name = "Drupal"
+		value = 10
+	[[person.skill]]
+		name = "JavaScript"
+		value = 8
+	[[person.skill]]
+		name = "Semantic HTML & CSS"
+		value = 10

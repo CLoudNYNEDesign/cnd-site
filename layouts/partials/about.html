@@ -1,0 +1,16 @@
+{{ "<!-- About section -->" | safeHTML }}
+<section class="section__about">
+  {{ with .Site.Params.about.title }}<h2 id="about-us">{{ . }}</h2>{{ end }}
+
+  {{ with .Site.Params.about.bio }}
+  <div class="blurb">
+    <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+
+  <section class="section__about--team">
+    {{ range .Site.Data.employees.person }}
+      {{ partial "employee.html" . }}
+    {{ end }}
+  </section>
+</section>
